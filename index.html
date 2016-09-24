@@ -1,1 +1,36 @@
-Simon Degraeve
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Simon Degraeve">
+		<meta name="author" content="Simon Degraeve">
+		<meta name="viewport" content="width=device-width">
+		<title>Simon Degraeve</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="profile" itemscope itemtype="https://schema.org/Person">
+					<a href="https://github.com/SimonDegraeve">
+						<img src="avatar.jpg" width="150" height="150" alt="Simon Degraeve" itemprop="image">
+					</a>
+					<div class="name" itemprop="name">Simon Degraeve</div>
+					<div class="job" itemprop="jobTitle">Software Engineer</div>
+				</div>
+				<ul class="links">
+					<li><a id="email" href="mailto:simon.degraeve at gmail dot com">Email</a></li>
+					<li><a href="http://linkedin.com/in/simon-degraeve-624250129">LinkedIn</a></li>
+					<li><a href="https://github.com/SimonDegraeve">GitHub</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script>
+		document
+			.getElementById('email')
+			.setAttribute('href', 'mailto:' + 'simon' + '.' + 'degraeve' + '@' + 'gmail' + '.' + 'com');
+	</script>
+</html>
